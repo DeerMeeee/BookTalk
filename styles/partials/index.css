@@ -7,7 +7,8 @@
 .block__title {
   display: block;
   color: font-color-dark;
-  font: font-larger/1.5 title-font;
+  font-weight: bold;
+  font: font-largest/1.5 title-font;
   margin-bottom: space-base;
   letter-spacing: 1px;
 }
@@ -16,12 +17,16 @@
 }
 .block__date {
   font: bold font-normal/2.5 aside-font;
-  color: font-color-normal;
+  color: #902818;
   letter-spacing: 2px;
 }
+.block__description,
 .block__excerpt {
-  text-align: left;
-  font: font-small/1.75 text-font-en;
+  display: block;
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+  font: font-normal/1.75 text-font;
   letter-spacing: 5px;
 }
 .block__more {
@@ -34,7 +39,7 @@
 .block__more:hover {
   color: font-color-light;
 }
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 1200px) {
   .block__title {
     font-weight: bold;
     font-size: 1.8rem;

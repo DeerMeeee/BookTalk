@@ -34,22 +34,27 @@
 .post__date {
   margin-right: space-large;
   letter-spacing: 1px;
+  color: #902818;
 }
 .post__category,
 .post__tag,
+.hyvor-comment-count,
+.post-count,
 .post__stat {
   margin-right: space-large;
+  color: #902818;
 }
 .post__category .category-link,
 .post__tag .tag-link {
   letter-spacing: 2px;
+  color: #902818;
 }
 .post__category .category-link:hover,
 .post__tag .tag-link:hover {
   cursor: pointer;
   color: font-color-light;
 }
-.post__stat .leancloud-visitors-count {
+.post__stat {
   letter-spacing: 2px;
 }
 .post__aside {
@@ -76,7 +81,7 @@
   margin-right: 2px;
 }
 .post__toc-text {
-  color: font-color-light;
+  color: #902818;
   font: font-smaller/1.75 aside-font-en;
   transition: color 0.2s;
 }
@@ -124,6 +129,10 @@
 }
 .post__content p a {
   text-decoration: underline;
+}
+.fa-pen-to-square,
+.fa-snowflake {
+  color: #902818;
 }
 @media screen and (max-width: 1200px) {
   .post__title,

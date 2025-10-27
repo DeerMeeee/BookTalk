@@ -3,26 +3,50 @@
   padding: space-large;
   text-align: center;
 }
+#header .site-title {
+  padding: 10px 0 0;
+}
+#header .site-title h1 {
+  margin: 0;
+  font-size: font-title;
+  color: #2d5a5a;
+  font-family: 'Sorts Mill Goudy', -apple-system, 'Times New Roman', serif;
+}
+#header .header-divider {
+  height: 3px;
+  margin: 15px auto;
+  display: block;
+  border-top: 1px solid #2d5a5a;
+  border-bottom: 1px solid #2d5a5a;
+  box-sizing: border-box;
+  max-width: 800px;
+  width: auto;
+}
 #header .menu {
   line-height: 1;
+  white-space: nowrap;
 }
-#header .menu--right {
+position relative {
+  padding-bottom: 15px;
+}
+.menu--right {
   float: right;
 }
-#header .menu--right .menu__item {
+.menu--right .menu__item {
   font-size: font-smallest;
   margin: 0 space-base;
 }
-#header .menu__item {
-  font: font-large/1 header-font;
-  color: font-color-dark;
+.menu__item {
+  font: font-normal/1 header-font;
+  color: #2d5a5a;
   margin: 0 space-large;
+  display: inline-block;
 }
-#header .menu__item:hover {
+.menu__item:hover {
   color: font-color-light;
 }
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 768px) {
   #header .menu__item {
-    font-size: 1.8rem;
+    font-size: 1.2rem;
   }
 }
