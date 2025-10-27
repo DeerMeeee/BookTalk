@@ -245,7 +245,7 @@ main {
   display: flex;
   align-items: baseline;
   margin-bottom: 1.5rem;
-  border-bottom: 0.5px dashed #902818;
+  border-bottom: 0.5px dashed #2d5a5a;
 }
 .list__item a {
   flex: 1;
@@ -306,7 +306,7 @@ main {
 .post__date {
   margin-right: 2rem;
   letter-spacing: 1px;
-  color: #902818;
+  color: #2d5a5a;
 }
 .post__category,
 .post__tag,
@@ -314,12 +314,12 @@ main {
 .post-count,
 .post__stat {
   margin-right: 2rem;
-  color: #902818;
+  color: #2d5a5a;
 }
 .post__category .category-link,
 .post__tag .tag-link {
   letter-spacing: 2px;
-  color: #902818;
+  color: #2d5a5a;
 }
 .post__category .category-link:hover,
 .post__tag .tag-link:hover {
@@ -353,7 +353,7 @@ main {
   margin-right: 2px;
 }
 .post__toc-text {
-  color: #902818;
+  color: #2d5a5a;
   font: 1.3rem/1.75 'HP Simplified Light';
   transition: color 0.2s;
 }
@@ -404,7 +404,7 @@ main {
 }
 .fa-pen-to-square,
 .fa-snowflake {
-  color: #902818;
+  color: #2d5a5a;
 }
 @media screen and (max-width: 1200px) {
   .post__title,
